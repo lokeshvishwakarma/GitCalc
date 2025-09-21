@@ -2,6 +2,7 @@
 
 float add(float a, float b);
 float subtract(float a, float b);
+float multiply(float a, float b);
 float divide(float a , float b);
 
 int main(void)
@@ -22,6 +23,11 @@ float add(float a, float b)
 float subtract(float a, float b)
 {
     return a - b;
+}
+
+float multiply(float a, float b)
+{
+    return a * b;
 }
 
 float divide(float a , float b)
